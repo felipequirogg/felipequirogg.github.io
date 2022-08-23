@@ -1,0 +1,175 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Prompt";
+}
+.body{
+    background-color: white;
+}
+.logo__navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: #313131;
+    color: white;
+}
+.logo__nombre{
+    display: flex;
+    align-items: center;
+}
+.nombre{
+    font-size: 20px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 5px;
+}
+.navbar ul li{
+    margin: 10px;
+}
+.navbar ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.link{
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+}
+.clase__principal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.imagen-logo{
+    margin: 5px;
+    max-width: 56px;
+    max-height: 56px;
+}
+.imagen__yo{
+    border-radius: 200px;
+}
+.textos{
+    align-items: center;
+}
+.texto__principal{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.texto__adicional{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+.herramientas{
+    display: flex;
+}
+.habilidades{
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textos__yo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.herramientas__titulo1{
+    margin-left: 50px;
+    margin-top: 30px;
+    text-decoration: overline;
+}
+.herramientas__titulo{
+    margin-top: 30px;
+    text-decoration: overline;
+}
+.herramientas__titulo2{
+    margin-right: 50px;
+    margin-top: 30px;
+    text-decoration: overline;
+}
+.herramientas__texto{
+    margin-left: 50px;
+    text-align: center;
+}
+.herramientas__text{
+    text-align: center;
+}
+.herramientas__texto2{
+    margin-right: 50px;
+    text-align: center;
+}
+.logocss{
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+.redes{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+.link:hover{
+    background-color: black;
+    color: white;
+}
+.imagen22{
+    width: 250px;
+    border: 1px solid black;
+}
+.btn{
+    background-color: black;
+    color: white;
+    width: 130px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.tarjeta1{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+    text-align: center;
+    border: 0.5px solid black;
+}
+.footer{
+    background-color: #313131;
+    border-top: 1px solid white;
+    margin-top: 96px;
+    color: white;
+}
+.footer__texto{
+    text-align: end;
+}
+.titulo__proyectos{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.proyectos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+.footer2{
+    background-color: #313131;
+    border-top: 1px solid white;
+    margin-top: 96px;
+    color: white;
+    margin-top: 275px;
+}
